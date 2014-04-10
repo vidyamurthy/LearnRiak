@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14C5B15118F6E65A00C68DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15018F6E65A00C68DC3 /* Foundation.framework */; };
+		14C5B15318F6E65A00C68DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */; };
+		14C5B15518F6E65A00C68DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15418F6E65A00C68DC3 /* UIKit.framework */; };
+		14C5B15B18F6E65A00C68DC3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 14C5B15918F6E65A00C68DC3 /* InfoPlist.strings */; };
+		14C5B15D18F6E65A00C68DC3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5B15C18F6E65A00C68DC3 /* main.m */; };
+		14C5B16118F6E65A00C68DC3 /* LRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C5B16018F6E65A00C68DC3 /* LRAppDelegate.m */; };
+		14C5B16318F6E65A00C68DC3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14C5B16218F6E65A00C68DC3 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14C5B14D18F6E65A00C68DC3 /* LearnRiak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRiak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14C5B15018F6E65A00C68DC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14C5B15418F6E65A00C68DC3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		14C5B15818F6E65A00C68DC3 /* LearnRiak-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LearnRiak-Info.plist"; sourceTree = "<group>"; };
+		14C5B15A18F6E65A00C68DC3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		14C5B15C18F6E65A00C68DC3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		14C5B15E18F6E65A00C68DC3 /* LearnRiak-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LearnRiak-Prefix.pch"; sourceTree = "<group>"; };
+		14C5B15F18F6E65A00C68DC3 /* LRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRAppDelegate.h; sourceTree = "<group>"; };
+		14C5B16018F6E65A00C68DC3 /* LRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRAppDelegate.m; sourceTree = "<group>"; };
+		14C5B16218F6E65A00C68DC3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		14C5B16918F6E65A00C68DC3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14C5B14A18F6E65A00C68DC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5B15318F6E65A00C68DC3 /* CoreGraphics.framework in Frameworks */,
+				14C5B15518F6E65A00C68DC3 /* UIKit.framework in Frameworks */,
+				14C5B15118F6E65A00C68DC3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14C5B14418F6E65A00C68DC3 = {
+			isa = PBXGroup;
+			children = (
+				14C5B15618F6E65A00C68DC3 /* LearnRiak */,
+				14C5B14F18F6E65A00C68DC3 /* Frameworks */,
+				14C5B14E18F6E65A00C68DC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14C5B14E18F6E65A00C68DC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C5B14D18F6E65A00C68DC3 /* LearnRiak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14C5B14F18F6E65A00C68DC3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14C5B15018F6E65A00C68DC3 /* Foundation.framework */,
+				14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */,
+				14C5B15418F6E65A00C68DC3 /* UIKit.framework */,
+				14C5B16918F6E65A00C68DC3 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14C5B15618F6E65A00C68DC3 /* LearnRiak */ = {
+			isa = PBXGroup;
+			children = (
+				14C5B15F18F6E65A00C68DC3 /* LRAppDelegate.h */,
+				14C5B16018F6E65A00C68DC3 /* LRAppDelegate.m */,
+				14C5B16218F6E65A00C68DC3 /* Images.xcassets */,
+				14C5B15718F6E65A00C68DC3 /* Supporting Files */,
+			);
+			path = LearnRiak;
+			sourceTree = "<group>";
+		};
+		14C5B15718F6E65A00C68DC3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				14C5B15818F6E65A00C68DC3 /* LearnRiak-Info.plist */,
+				14C5B15918F6E65A00C68DC3 /* InfoPlist.strings */,
+				14C5B15C18F6E65A00C68DC3 /* main.m */,
+				14C5B15E18F6E65A00C68DC3 /* LearnRiak-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14C5B14C18F6E65A00C68DC3 /* LearnRiak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14C5B17918F6E65A00C68DC3 /* Build configuration list for PBXNativeTarget "LearnRiak" */;
+			buildPhases = (
+				14C5B14918F6E65A00C68DC3 /* Sources */,
+				14C5B14A18F6E65A00C68DC3 /* Frameworks */,
+				14C5B14B18F6E65A00C68DC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LearnRiak;
+			productName = LearnRiak;
+			productReference = 14C5B14D18F6E65A00C68DC3 /* LearnRiak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14C5B14518F6E65A00C68DC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LR;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Vidya Murthy";
+			};
+			buildConfigurationList = 14C5B14818F6E65A00C68DC3 /* Build configuration list for PBXProject "LearnRiak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 14C5B14418F6E65A00C68DC3;
+			productRefGroup = 14C5B14E18F6E65A00C68DC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14C5B14C18F6E65A00C68DC3 /* LearnRiak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14C5B14B18F6E65A00C68DC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5B15B18F6E65A00C68DC3 /* InfoPlist.strings in Resources */,
+				14C5B16318F6E65A00C68DC3 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14C5B14918F6E65A00C68DC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14C5B16118F6E65A00C68DC3 /* LRAppDelegate.m in Sources */,
+				14C5B15D18F6E65A00C68DC3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14C5B15918F6E65A00C68DC3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14C5B15A18F6E65A00C68DC3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14C5B17718F6E65A00C68DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		14C5B17818F6E65A00C68DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14C5B17A18F6E65A00C68DC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnRiak/LearnRiak-Prefix.pch";
+				INFOPLIST_FILE = "LearnRiak/LearnRiak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		14C5B17B18F6E65A00C68DC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LearnRiak/LearnRiak-Prefix.pch";
+				INFOPLIST_FILE = "LearnRiak/LearnRiak-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14C5B14818F6E65A00C68DC3 /* Build configuration list for PBXProject "LearnRiak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5B17718F6E65A00C68DC3 /* Debug */,
+				14C5B17818F6E65A00C68DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14C5B17918F6E65A00C68DC3 /* Build configuration list for PBXNativeTarget "LearnRiak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14C5B17A18F6E65A00C68DC3 /* Debug */,
+				14C5B17B18F6E65A00C68DC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14C5B14518F6E65A00C68DC3 /* Project object */;
+}
