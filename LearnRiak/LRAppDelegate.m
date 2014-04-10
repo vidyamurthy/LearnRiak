@@ -3,18 +3,23 @@
 //  LearnRiak
 //
 //  Created by Vidya on 10/04/14.
-//  Copyright (c) 2014 Vidya Murthy. All rights reserved.
+//  Copyright (c) 2014 Vidya Murthy & Achal Sudheer. All rights reserved.
 //
 
 #import "LRAppDelegate.h"
 
 @implementation LRAppDelegate
+@synthesize splashviewcontroller;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.splashviewcontroller = [[LRSplashViewController alloc] init];
+    UINavigationController *navcontroller = [[UINavigationController alloc] initWithRootViewController:splashviewcontroller];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = navcontroller;
     [self.window makeKeyAndVisible];
     return YES;
 }
