@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12A702701918C9EF00F32217 /* LRSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A7026E1918C9EF00F32217 /* LRSetupViewController.m */; };
+		12A702711918C9EF00F32217 /* LRSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A7026F1918C9EF00F32217 /* LRSetupViewController.xib */; };
+		12A702781918CA1B00F32217 /* LRLearningViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A702761918CA1B00F32217 /* LRLearningViewController.m */; };
+		12A702791918CA1B00F32217 /* LRLearningViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A702771918CA1B00F32217 /* LRLearningViewController.xib */; };
+		12A7027D1918CA2900F32217 /* LRLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A7027B1918CA2900F32217 /* LRLibraryViewController.m */; };
+		12A7027E1918CA2900F32217 /* LRLibraryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A7027C1918CA2900F32217 /* LRLibraryViewController.xib */; };
+		12A702821918CA3700F32217 /* LRMoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A702801918CA3700F32217 /* LRMoreViewController.m */; };
+		12A702831918CA3700F32217 /* LRMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A702811918CA3700F32217 /* LRMoreViewController.xib */; };
+		12A702851918E4E400F32217 /* fontellofull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A702841918E4E400F32217 /* fontellofull.ttf */; };
+		12A702881918E56800F32217 /* LRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A702871918E56800F32217 /* LRConstants.m */; };
+		12F2540C1906836800C5C8F5 /* riak-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F2540B1906836800C5C8F5 /* riak-circle.png */; };
 		14C5B15118F6E65A00C68DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15018F6E65A00C68DC3 /* Foundation.framework */; };
 		14C5B15318F6E65A00C68DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */; };
 		14C5B15518F6E65A00C68DC3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15418F6E65A00C68DC3 /* UIKit.framework */; };
@@ -19,6 +30,22 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		12A7026D1918C9EF00F32217 /* LRSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRSetupViewController.h; sourceTree = "<group>"; };
+		12A7026E1918C9EF00F32217 /* LRSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRSetupViewController.m; sourceTree = "<group>"; };
+		12A7026F1918C9EF00F32217 /* LRSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRSetupViewController.xib; sourceTree = "<group>"; };
+		12A702751918CA1B00F32217 /* LRLearningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLearningViewController.h; sourceTree = "<group>"; };
+		12A702761918CA1B00F32217 /* LRLearningViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLearningViewController.m; sourceTree = "<group>"; };
+		12A702771918CA1B00F32217 /* LRLearningViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRLearningViewController.xib; sourceTree = "<group>"; };
+		12A7027A1918CA2900F32217 /* LRLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRLibraryViewController.h; sourceTree = "<group>"; };
+		12A7027B1918CA2900F32217 /* LRLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRLibraryViewController.m; sourceTree = "<group>"; };
+		12A7027C1918CA2900F32217 /* LRLibraryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRLibraryViewController.xib; sourceTree = "<group>"; };
+		12A7027F1918CA3700F32217 /* LRMoreViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRMoreViewController.h; sourceTree = "<group>"; };
+		12A702801918CA3700F32217 /* LRMoreViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRMoreViewController.m; sourceTree = "<group>"; };
+		12A702811918CA3700F32217 /* LRMoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRMoreViewController.xib; sourceTree = "<group>"; };
+		12A702841918E4E400F32217 /* fontellofull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontellofull.ttf; sourceTree = "<group>"; };
+		12A702861918E56800F32217 /* LRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRConstants.h; sourceTree = "<group>"; };
+		12A702871918E56800F32217 /* LRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRConstants.m; sourceTree = "<group>"; };
+		12F2540B1906836800C5C8F5 /* riak-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "riak-circle.png"; sourceTree = "<group>"; };
 		14C5B14D18F6E65A00C68DC3 /* LearnRiak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRiak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C5B15018F6E65A00C68DC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -83,6 +110,8 @@
 			children = (
 				14C5B15F18F6E65A00C68DC3 /* LRAppDelegate.h */,
 				14C5B16018F6E65A00C68DC3 /* LRAppDelegate.m */,
+				12A702861918E56800F32217 /* LRConstants.h */,
+				12A702871918E56800F32217 /* LRConstants.m */,
 				14C5B18018F6E8B000C68DC3 /* View Controllers */,
 				14C5B17F18F6E8B000C68DC3 /* Resources */,
 				14C5B16218F6E65A00C68DC3 /* Images.xcassets */,
@@ -105,6 +134,8 @@
 		14C5B17F18F6E8B000C68DC3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				12A702841918E4E400F32217 /* fontellofull.ttf */,
+				12F2540B1906836800C5C8F5 /* riak-circle.png */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -115,6 +146,18 @@
 				14C5B18118F6E8DE00C68DC3 /* LRSplashViewController.h */,
 				14C5B18218F6E8DE00C68DC3 /* LRSplashViewController.m */,
 				14C5B18318F6E8DE00C68DC3 /* LRSplashViewController.xib */,
+				12A7026D1918C9EF00F32217 /* LRSetupViewController.h */,
+				12A7026E1918C9EF00F32217 /* LRSetupViewController.m */,
+				12A7026F1918C9EF00F32217 /* LRSetupViewController.xib */,
+				12A702751918CA1B00F32217 /* LRLearningViewController.h */,
+				12A702761918CA1B00F32217 /* LRLearningViewController.m */,
+				12A702771918CA1B00F32217 /* LRLearningViewController.xib */,
+				12A7027A1918CA2900F32217 /* LRLibraryViewController.h */,
+				12A7027B1918CA2900F32217 /* LRLibraryViewController.m */,
+				12A7027C1918CA2900F32217 /* LRLibraryViewController.xib */,
+				12A7027F1918CA3700F32217 /* LRMoreViewController.h */,
+				12A702801918CA3700F32217 /* LRMoreViewController.m */,
+				12A702811918CA3700F32217 /* LRMoreViewController.xib */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -171,8 +214,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12F2540C1906836800C5C8F5 /* riak-circle.png in Resources */,
+				12A702831918CA3700F32217 /* LRMoreViewController.xib in Resources */,
 				14C5B18518F6E8DE00C68DC3 /* LRSplashViewController.xib in Resources */,
+				12A7027E1918CA2900F32217 /* LRLibraryViewController.xib in Resources */,
+				12A702791918CA1B00F32217 /* LRLearningViewController.xib in Resources */,
 				14C5B15B18F6E65A00C68DC3 /* InfoPlist.strings in Resources */,
+				12A702851918E4E400F32217 /* fontellofull.ttf in Resources */,
+				12A702711918C9EF00F32217 /* LRSetupViewController.xib in Resources */,
 				14C5B16318F6E65A00C68DC3 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -184,7 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12A702701918C9EF00F32217 /* LRSetupViewController.m in Sources */,
+				12A702781918CA1B00F32217 /* LRLearningViewController.m in Sources */,
+				12A7027D1918CA2900F32217 /* LRLibraryViewController.m in Sources */,
+				12A702881918E56800F32217 /* LRConstants.m in Sources */,
 				14C5B16118F6E65A00C68DC3 /* LRAppDelegate.m in Sources */,
+				12A702821918CA3700F32217 /* LRMoreViewController.m in Sources */,
 				14C5B15D18F6E65A00C68DC3 /* main.m in Sources */,
 				14C5B18418F6E8DE00C68DC3 /* LRSplashViewController.m in Sources */,
 			);
@@ -319,6 +373,7 @@
 				14C5B17B18F6E65A00C68DC3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
