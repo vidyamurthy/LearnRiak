@@ -17,6 +17,49 @@
 		12A702831918CA3700F32217 /* LRMoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12A702811918CA3700F32217 /* LRMoreViewController.xib */; };
 		12A702851918E4E400F32217 /* fontellofull.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 12A702841918E4E400F32217 /* fontellofull.ttf */; };
 		12A702881918E56800F32217 /* LRConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 12A702871918E56800F32217 /* LRConstants.m */; };
+		12BDFA7E1920011800CEE3D5 /* LRDetailWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12BDFA7C1920011800CEE3D5 /* LRDetailWebViewController.m */; };
+		12BDFA7F1920011800CEE3D5 /* LRDetailWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA7D1920011800CEE3D5 /* LRDetailWebViewController.xib */; };
+		12BDFAAA1920012000CEE3D5 /* Adding and Removing Nodes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA811920012000CEE3D5 /* Adding and Removing Nodes.pdf */; };
+		12BDFAAB1920012000CEE3D5 /* Basho Bench.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA821920012000CEE3D5 /* Basho Bench.pdf */; };
+		12BDFAAC1920012000CEE3D5 /* Basic Cluster Setup.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA831920012000CEE3D5 /* Basic Cluster Setup.pdf */; };
+		12BDFAAD1920012000CEE3D5 /* Basic Configuration.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA841920012000CEE3D5 /* Basic Configuration.pdf */; };
+		12BDFAAE1920012000CEE3D5 /* Client Libraries.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA851920012000CEE3D5 /* Client Libraries.pdf */; };
+		12BDFAAF1920012000CEE3D5 /* Configuration Files.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA861920012000CEE3D5 /* Configuration Files.pdf */; };
+		12BDFAB01920012000CEE3D5 /* Configuring Secondary Indexes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA871920012000CEE3D5 /* Configuring Secondary Indexes.pdf */; };
+		12BDFAB11920012000CEE3D5 /* Inspecting a Node.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA881920012000CEE3D5 /* Inspecting a Node.pdf */; };
+		12BDFAB21920012000CEE3D5 /* Installing and Upgrading.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA891920012000CEE3D5 /* Installing and Upgrading.pdf */; };
+		12BDFAB31920012000CEE3D5 /* Installing Erlang.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8A1920012000CEE3D5 /* Installing Erlang.pdf */; };
+		12BDFAB41920012000CEE3D5 /* Installing on AWS Marketplace.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8B1920012000CEE3D5 /* Installing on AWS Marketplace.pdf */; };
+		12BDFAB51920012000CEE3D5 /* Installing on Debian and Ubuntu.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8C1920012000CEE3D5 /* Installing on Debian and Ubuntu.pdf */; };
+		12BDFAB61920012000CEE3D5 /* Installing on FreeBSD.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8D1920012000CEE3D5 /* Installing on FreeBSD.pdf */; };
+		12BDFAB71920012000CEE3D5 /* Installing on Mac OS X.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8E1920012000CEE3D5 /* Installing on Mac OS X.pdf */; };
+		12BDFAB81920012000CEE3D5 /* Installing on RHEL and CentOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA8F1920012000CEE3D5 /* Installing on RHEL and CentOS.pdf */; };
+		12BDFAB91920012000CEE3D5 /* Installing on SmartOS.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA901920012000CEE3D5 /* Installing on SmartOS.pdf */; };
+		12BDFABA1920012000CEE3D5 /* Installing on Solaris.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA911920012000CEE3D5 /* Installing on Solaris.pdf */; };
+		12BDFABB1920012000CEE3D5 /* Installing on SUSE.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA921920012000CEE3D5 /* Installing on SUSE.pdf */; };
+		12BDFABC1920012000CEE3D5 /* Installing on Windows Azure.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA931920012000CEE3D5 /* Installing on Windows Azure.pdf */; };
+		12BDFABD1920012000CEE3D5 /* Installing Riak from Source.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA941920012000CEE3D5 /* Installing Riak from Source.pdf */; };
+		12BDFABE1920012000CEE3D5 /* Link Walking.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA951920012000CEE3D5 /* Link Walking.pdf */; };
+		12BDFABF1920012000CEE3D5 /* Load Balancing and Proxy Configuration.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA961920012000CEE3D5 /* Load Balancing and Proxy Configuration.pdf */; };
+		12BDFAC01920012000CEE3D5 /* Post Installation.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA971920012000CEE3D5 /* Post Installation.pdf */; };
+		12BDFAC11920012000CEE3D5 /* Querying with Erlang.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA981920012000CEE3D5 /* Querying with Erlang.pdf */; };
+		12BDFAC21920012000CEE3D5 /* Querying with Java.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA991920012000CEE3D5 /* Querying with Java.pdf */; };
+		12BDFAC31920012000CEE3D5 /* Querying with PHP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9A1920012000CEE3D5 /* Querying with PHP.pdf */; };
+		12BDFAC41920012000CEE3D5 /* Querying with Python.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9B1920012000CEE3D5 /* Querying with Python.pdf */; };
+		12BDFAC51920012000CEE3D5 /* Querying with Ruby.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9C1920012000CEE3D5 /* Querying with Ruby.pdf */; };
+		12BDFAC61920012000CEE3D5 /* Querying.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9D1920012000CEE3D5 /* Querying.pdf */; };
+		12BDFAC71920012000CEE3D5 /* Renaming Nodes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9E1920012000CEE3D5 /* Renaming Nodes.pdf */; };
+		12BDFAC81920012000CEE3D5 /* Replacing a Node.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFA9F1920012000CEE3D5 /* Replacing a Node.pdf */; };
+		12BDFAC91920012000CEE3D5 /* Riak MapReduce Settings.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA01920012000CEE3D5 /* Riak MapReduce Settings.pdf */; };
+		12BDFACA1920012000CEE3D5 /* Riak Search Settings.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA11920012000CEE3D5 /* Riak Search Settings.pdf */; };
+		12BDFACB1920012000CEE3D5 /* The Basics.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA21920012000CEE3D5 /* The Basics.pdf */; };
+		12BDFACC1920012000CEE3D5 /* Tips and Tricks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA31920012000CEE3D5 /* Tips and Tricks.pdf */; };
+		12BDFACD1920012000CEE3D5 /* Using Commit Hooks.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA41920012000CEE3D5 /* Using Commit Hooks.pdf */; };
+		12BDFACE1920012000CEE3D5 /* Using Key Filters.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA51920012000CEE3D5 /* Using Key Filters.pdf */; };
+		12BDFACF1920012000CEE3D5 /* Using MapReduce.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA61920012000CEE3D5 /* Using MapReduce.pdf */; };
+		12BDFAD01920012000CEE3D5 /* Using Search.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA71920012000CEE3D5 /* Using Search.pdf */; };
+		12BDFAD11920012000CEE3D5 /* Using Secondary Indexes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA81920012000CEE3D5 /* Using Secondary Indexes.pdf */; };
+		12BDFAD21920012000CEE3D5 /* Why Riak.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 12BDFAA91920012000CEE3D5 /* Why Riak.pdf */; };
 		12F2540C1906836800C5C8F5 /* riak-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 12F2540B1906836800C5C8F5 /* riak-circle.png */; };
 		14C5B15118F6E65A00C68DC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15018F6E65A00C68DC3 /* Foundation.framework */; };
 		14C5B15318F6E65A00C68DC3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C5B15218F6E65A00C68DC3 /* CoreGraphics.framework */; };
@@ -45,6 +88,50 @@
 		12A702841918E4E400F32217 /* fontellofull.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = fontellofull.ttf; sourceTree = "<group>"; };
 		12A702861918E56800F32217 /* LRConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRConstants.h; sourceTree = "<group>"; };
 		12A702871918E56800F32217 /* LRConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRConstants.m; sourceTree = "<group>"; };
+		12BDFA7B1920011800CEE3D5 /* LRDetailWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRDetailWebViewController.h; sourceTree = "<group>"; };
+		12BDFA7C1920011800CEE3D5 /* LRDetailWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRDetailWebViewController.m; sourceTree = "<group>"; };
+		12BDFA7D1920011800CEE3D5 /* LRDetailWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LRDetailWebViewController.xib; sourceTree = "<group>"; };
+		12BDFA811920012000CEE3D5 /* Adding and Removing Nodes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Adding and Removing Nodes.pdf"; sourceTree = "<group>"; };
+		12BDFA821920012000CEE3D5 /* Basho Bench.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Basho Bench.pdf"; sourceTree = "<group>"; };
+		12BDFA831920012000CEE3D5 /* Basic Cluster Setup.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Basic Cluster Setup.pdf"; sourceTree = "<group>"; };
+		12BDFA841920012000CEE3D5 /* Basic Configuration.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Basic Configuration.pdf"; sourceTree = "<group>"; };
+		12BDFA851920012000CEE3D5 /* Client Libraries.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Client Libraries.pdf"; sourceTree = "<group>"; };
+		12BDFA861920012000CEE3D5 /* Configuration Files.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Configuration Files.pdf"; sourceTree = "<group>"; };
+		12BDFA871920012000CEE3D5 /* Configuring Secondary Indexes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Configuring Secondary Indexes.pdf"; sourceTree = "<group>"; };
+		12BDFA881920012000CEE3D5 /* Inspecting a Node.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Inspecting a Node.pdf"; sourceTree = "<group>"; };
+		12BDFA891920012000CEE3D5 /* Installing and Upgrading.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing and Upgrading.pdf"; sourceTree = "<group>"; };
+		12BDFA8A1920012000CEE3D5 /* Installing Erlang.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing Erlang.pdf"; sourceTree = "<group>"; };
+		12BDFA8B1920012000CEE3D5 /* Installing on AWS Marketplace.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on AWS Marketplace.pdf"; sourceTree = "<group>"; };
+		12BDFA8C1920012000CEE3D5 /* Installing on Debian and Ubuntu.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on Debian and Ubuntu.pdf"; sourceTree = "<group>"; };
+		12BDFA8D1920012000CEE3D5 /* Installing on FreeBSD.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on FreeBSD.pdf"; sourceTree = "<group>"; };
+		12BDFA8E1920012000CEE3D5 /* Installing on Mac OS X.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on Mac OS X.pdf"; sourceTree = "<group>"; };
+		12BDFA8F1920012000CEE3D5 /* Installing on RHEL and CentOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on RHEL and CentOS.pdf"; sourceTree = "<group>"; };
+		12BDFA901920012000CEE3D5 /* Installing on SmartOS.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on SmartOS.pdf"; sourceTree = "<group>"; };
+		12BDFA911920012000CEE3D5 /* Installing on Solaris.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on Solaris.pdf"; sourceTree = "<group>"; };
+		12BDFA921920012000CEE3D5 /* Installing on SUSE.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on SUSE.pdf"; sourceTree = "<group>"; };
+		12BDFA931920012000CEE3D5 /* Installing on Windows Azure.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing on Windows Azure.pdf"; sourceTree = "<group>"; };
+		12BDFA941920012000CEE3D5 /* Installing Riak from Source.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Installing Riak from Source.pdf"; sourceTree = "<group>"; };
+		12BDFA951920012000CEE3D5 /* Link Walking.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Link Walking.pdf"; sourceTree = "<group>"; };
+		12BDFA961920012000CEE3D5 /* Load Balancing and Proxy Configuration.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Load Balancing and Proxy Configuration.pdf"; sourceTree = "<group>"; };
+		12BDFA971920012000CEE3D5 /* Post Installation.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Post Installation.pdf"; sourceTree = "<group>"; };
+		12BDFA981920012000CEE3D5 /* Querying with Erlang.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Querying with Erlang.pdf"; sourceTree = "<group>"; };
+		12BDFA991920012000CEE3D5 /* Querying with Java.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Querying with Java.pdf"; sourceTree = "<group>"; };
+		12BDFA9A1920012000CEE3D5 /* Querying with PHP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Querying with PHP.pdf"; sourceTree = "<group>"; };
+		12BDFA9B1920012000CEE3D5 /* Querying with Python.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Querying with Python.pdf"; sourceTree = "<group>"; };
+		12BDFA9C1920012000CEE3D5 /* Querying with Ruby.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Querying with Ruby.pdf"; sourceTree = "<group>"; };
+		12BDFA9D1920012000CEE3D5 /* Querying.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Querying.pdf; sourceTree = "<group>"; };
+		12BDFA9E1920012000CEE3D5 /* Renaming Nodes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Renaming Nodes.pdf"; sourceTree = "<group>"; };
+		12BDFA9F1920012000CEE3D5 /* Replacing a Node.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Replacing a Node.pdf"; sourceTree = "<group>"; };
+		12BDFAA01920012000CEE3D5 /* Riak MapReduce Settings.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Riak MapReduce Settings.pdf"; sourceTree = "<group>"; };
+		12BDFAA11920012000CEE3D5 /* Riak Search Settings.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Riak Search Settings.pdf"; sourceTree = "<group>"; };
+		12BDFAA21920012000CEE3D5 /* The Basics.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "The Basics.pdf"; sourceTree = "<group>"; };
+		12BDFAA31920012000CEE3D5 /* Tips and Tricks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tips and Tricks.pdf"; sourceTree = "<group>"; };
+		12BDFAA41920012000CEE3D5 /* Using Commit Hooks.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using Commit Hooks.pdf"; sourceTree = "<group>"; };
+		12BDFAA51920012000CEE3D5 /* Using Key Filters.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using Key Filters.pdf"; sourceTree = "<group>"; };
+		12BDFAA61920012000CEE3D5 /* Using MapReduce.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using MapReduce.pdf"; sourceTree = "<group>"; };
+		12BDFAA71920012000CEE3D5 /* Using Search.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using Search.pdf"; sourceTree = "<group>"; };
+		12BDFAA81920012000CEE3D5 /* Using Secondary Indexes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Using Secondary Indexes.pdf"; sourceTree = "<group>"; };
+		12BDFAA91920012000CEE3D5 /* Why Riak.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Why Riak.pdf"; sourceTree = "<group>"; };
 		12F2540B1906836800C5C8F5 /* riak-circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "riak-circle.png"; sourceTree = "<group>"; };
 		14C5B14D18F6E65A00C68DC3 /* LearnRiak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnRiak.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14C5B15018F6E65A00C68DC3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -77,6 +164,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		12BDFA801920012000CEE3D5 /* PDFs */ = {
+			isa = PBXGroup;
+			children = (
+				12BDFA811920012000CEE3D5 /* Adding and Removing Nodes.pdf */,
+				12BDFA821920012000CEE3D5 /* Basho Bench.pdf */,
+				12BDFA831920012000CEE3D5 /* Basic Cluster Setup.pdf */,
+				12BDFA841920012000CEE3D5 /* Basic Configuration.pdf */,
+				12BDFA851920012000CEE3D5 /* Client Libraries.pdf */,
+				12BDFA861920012000CEE3D5 /* Configuration Files.pdf */,
+				12BDFA871920012000CEE3D5 /* Configuring Secondary Indexes.pdf */,
+				12BDFA881920012000CEE3D5 /* Inspecting a Node.pdf */,
+				12BDFA891920012000CEE3D5 /* Installing and Upgrading.pdf */,
+				12BDFA8A1920012000CEE3D5 /* Installing Erlang.pdf */,
+				12BDFA8B1920012000CEE3D5 /* Installing on AWS Marketplace.pdf */,
+				12BDFA8C1920012000CEE3D5 /* Installing on Debian and Ubuntu.pdf */,
+				12BDFA8D1920012000CEE3D5 /* Installing on FreeBSD.pdf */,
+				12BDFA8E1920012000CEE3D5 /* Installing on Mac OS X.pdf */,
+				12BDFA8F1920012000CEE3D5 /* Installing on RHEL and CentOS.pdf */,
+				12BDFA901920012000CEE3D5 /* Installing on SmartOS.pdf */,
+				12BDFA911920012000CEE3D5 /* Installing on Solaris.pdf */,
+				12BDFA921920012000CEE3D5 /* Installing on SUSE.pdf */,
+				12BDFA931920012000CEE3D5 /* Installing on Windows Azure.pdf */,
+				12BDFA941920012000CEE3D5 /* Installing Riak from Source.pdf */,
+				12BDFA951920012000CEE3D5 /* Link Walking.pdf */,
+				12BDFA961920012000CEE3D5 /* Load Balancing and Proxy Configuration.pdf */,
+				12BDFA971920012000CEE3D5 /* Post Installation.pdf */,
+				12BDFA981920012000CEE3D5 /* Querying with Erlang.pdf */,
+				12BDFA991920012000CEE3D5 /* Querying with Java.pdf */,
+				12BDFA9A1920012000CEE3D5 /* Querying with PHP.pdf */,
+				12BDFA9B1920012000CEE3D5 /* Querying with Python.pdf */,
+				12BDFA9C1920012000CEE3D5 /* Querying with Ruby.pdf */,
+				12BDFA9D1920012000CEE3D5 /* Querying.pdf */,
+				12BDFA9E1920012000CEE3D5 /* Renaming Nodes.pdf */,
+				12BDFA9F1920012000CEE3D5 /* Replacing a Node.pdf */,
+				12BDFAA01920012000CEE3D5 /* Riak MapReduce Settings.pdf */,
+				12BDFAA11920012000CEE3D5 /* Riak Search Settings.pdf */,
+				12BDFAA21920012000CEE3D5 /* The Basics.pdf */,
+				12BDFAA31920012000CEE3D5 /* Tips and Tricks.pdf */,
+				12BDFAA41920012000CEE3D5 /* Using Commit Hooks.pdf */,
+				12BDFAA51920012000CEE3D5 /* Using Key Filters.pdf */,
+				12BDFAA61920012000CEE3D5 /* Using MapReduce.pdf */,
+				12BDFAA71920012000CEE3D5 /* Using Search.pdf */,
+				12BDFAA81920012000CEE3D5 /* Using Secondary Indexes.pdf */,
+				12BDFAA91920012000CEE3D5 /* Why Riak.pdf */,
+			);
+			path = PDFs;
+			sourceTree = "<group>";
+		};
 		14C5B14418F6E65A00C68DC3 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +269,7 @@
 		14C5B17F18F6E8B000C68DC3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				12BDFA801920012000CEE3D5 /* PDFs */,
 				12A702841918E4E400F32217 /* fontellofull.ttf */,
 				12F2540B1906836800C5C8F5 /* riak-circle.png */,
 			);
@@ -143,6 +279,9 @@
 		14C5B18018F6E8B000C68DC3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				12BDFA7B1920011800CEE3D5 /* LRDetailWebViewController.h */,
+				12BDFA7C1920011800CEE3D5 /* LRDetailWebViewController.m */,
+				12BDFA7D1920011800CEE3D5 /* LRDetailWebViewController.xib */,
 				14C5B18118F6E8DE00C68DC3 /* LRSplashViewController.h */,
 				14C5B18218F6E8DE00C68DC3 /* LRSplashViewController.m */,
 				14C5B18318F6E8DE00C68DC3 /* LRSplashViewController.xib */,
@@ -214,15 +353,57 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12BDFABB1920012000CEE3D5 /* Installing on SUSE.pdf in Resources */,
 				12F2540C1906836800C5C8F5 /* riak-circle.png in Resources */,
+				12BDFAAD1920012000CEE3D5 /* Basic Configuration.pdf in Resources */,
+				12BDFABC1920012000CEE3D5 /* Installing on Windows Azure.pdf in Resources */,
+				12BDFAB91920012000CEE3D5 /* Installing on SmartOS.pdf in Resources */,
 				12A702831918CA3700F32217 /* LRMoreViewController.xib in Resources */,
+				12BDFAB81920012000CEE3D5 /* Installing on RHEL and CentOS.pdf in Resources */,
+				12BDFACF1920012000CEE3D5 /* Using MapReduce.pdf in Resources */,
 				14C5B18518F6E8DE00C68DC3 /* LRSplashViewController.xib in Resources */,
 				12A7027E1918CA2900F32217 /* LRLibraryViewController.xib in Resources */,
+				12BDFAB01920012000CEE3D5 /* Configuring Secondary Indexes.pdf in Resources */,
+				12BDFAB51920012000CEE3D5 /* Installing on Debian and Ubuntu.pdf in Resources */,
+				12BDFAC81920012000CEE3D5 /* Replacing a Node.pdf in Resources */,
+				12BDFAB71920012000CEE3D5 /* Installing on Mac OS X.pdf in Resources */,
+				12BDFABD1920012000CEE3D5 /* Installing Riak from Source.pdf in Resources */,
+				12BDFAAC1920012000CEE3D5 /* Basic Cluster Setup.pdf in Resources */,
+				12BDFAC01920012000CEE3D5 /* Post Installation.pdf in Resources */,
+				12BDFAAA1920012000CEE3D5 /* Adding and Removing Nodes.pdf in Resources */,
+				12BDFACD1920012000CEE3D5 /* Using Commit Hooks.pdf in Resources */,
+				12BDFAB11920012000CEE3D5 /* Inspecting a Node.pdf in Resources */,
+				12BDFAC41920012000CEE3D5 /* Querying with Python.pdf in Resources */,
+				12BDFABA1920012000CEE3D5 /* Installing on Solaris.pdf in Resources */,
+				12BDFAB21920012000CEE3D5 /* Installing and Upgrading.pdf in Resources */,
+				12BDFABE1920012000CEE3D5 /* Link Walking.pdf in Resources */,
+				12BDFAD01920012000CEE3D5 /* Using Search.pdf in Resources */,
 				12A702791918CA1B00F32217 /* LRLearningViewController.xib in Resources */,
+				12BDFACC1920012000CEE3D5 /* Tips and Tricks.pdf in Resources */,
+				12BDFAC51920012000CEE3D5 /* Querying with Ruby.pdf in Resources */,
+				12BDFACB1920012000CEE3D5 /* The Basics.pdf in Resources */,
+				12BDFAC11920012000CEE3D5 /* Querying with Erlang.pdf in Resources */,
+				12BDFAAE1920012000CEE3D5 /* Client Libraries.pdf in Resources */,
 				14C5B15B18F6E65A00C68DC3 /* InfoPlist.strings in Resources */,
+				12BDFACE1920012000CEE3D5 /* Using Key Filters.pdf in Resources */,
+				12BDFAD21920012000CEE3D5 /* Why Riak.pdf in Resources */,
+				12BDFAAF1920012000CEE3D5 /* Configuration Files.pdf in Resources */,
 				12A702851918E4E400F32217 /* fontellofull.ttf in Resources */,
+				12BDFAC71920012000CEE3D5 /* Renaming Nodes.pdf in Resources */,
+				12BDFAC21920012000CEE3D5 /* Querying with Java.pdf in Resources */,
+				12BDFAAB1920012000CEE3D5 /* Basho Bench.pdf in Resources */,
 				12A702711918C9EF00F32217 /* LRSetupViewController.xib in Resources */,
+				12BDFAC31920012000CEE3D5 /* Querying with PHP.pdf in Resources */,
+				12BDFA7F1920011800CEE3D5 /* LRDetailWebViewController.xib in Resources */,
+				12BDFACA1920012000CEE3D5 /* Riak Search Settings.pdf in Resources */,
+				12BDFAC61920012000CEE3D5 /* Querying.pdf in Resources */,
 				14C5B16318F6E65A00C68DC3 /* Images.xcassets in Resources */,
+				12BDFAB31920012000CEE3D5 /* Installing Erlang.pdf in Resources */,
+				12BDFAD11920012000CEE3D5 /* Using Secondary Indexes.pdf in Resources */,
+				12BDFAB61920012000CEE3D5 /* Installing on FreeBSD.pdf in Resources */,
+				12BDFAC91920012000CEE3D5 /* Riak MapReduce Settings.pdf in Resources */,
+				12BDFABF1920012000CEE3D5 /* Load Balancing and Proxy Configuration.pdf in Resources */,
+				12BDFAB41920012000CEE3D5 /* Installing on AWS Marketplace.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +419,7 @@
 				12A7027D1918CA2900F32217 /* LRLibraryViewController.m in Sources */,
 				12A702881918E56800F32217 /* LRConstants.m in Sources */,
 				14C5B16118F6E65A00C68DC3 /* LRAppDelegate.m in Sources */,
+				12BDFA7E1920011800CEE3D5 /* LRDetailWebViewController.m in Sources */,
 				12A702821918CA3700F32217 /* LRMoreViewController.m in Sources */,
 				14C5B15D18F6E65A00C68DC3 /* main.m in Sources */,
 				14C5B18418F6E8DE00C68DC3 /* LRSplashViewController.m in Sources */,
@@ -333,6 +515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vidya N (96E22M9SYN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnRiak/LearnRiak-Prefix.pch";
 				INFOPLIST_FILE = "LearnRiak/LearnRiak-Info.plist";
@@ -346,6 +529,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Vidya N (96E22M9SYN)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LearnRiak/LearnRiak-Prefix.pch";
 				INFOPLIST_FILE = "LearnRiak/LearnRiak-Info.plist";
